@@ -26,3 +26,17 @@ a,a:visited{
 .no-list{
 	list-style:none;
 }
+
+.field{
+	margin-top:1em;
+}
+
+.form-control{
+	border: none !important;
+	border-bottom: 1px solid !important;
+	outline: none !important;
+	width: 100% !important;
+	display: block !important;
+	padding: 10px 0px !important;
+	font-size: 1.2em !important;
+}
