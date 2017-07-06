@@ -1,0 +1,14 @@
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/json-1.8.6/ext/json
+/usr/bin/ruby2.1 -r ./siteconf20170705-8945-qqmhb.rb extconf.rb
+creating Makefile
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
+installing default libraries

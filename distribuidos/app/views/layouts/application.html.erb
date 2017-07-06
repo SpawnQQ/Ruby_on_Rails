@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Distribuidos</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+		<nav class="be-blue white  nav">
+			<url class="no-list row	 middle-xs">
+				<li class="col-xs-offset-1">
+					<h1 class="no-margin " id="logo">Chess Online</h1>
+				</li>
+				<li class="col-xs-offset-5">
+					<%= link_to "Inicio", root_path %>
+				</li>
+				<li class="margen_botones ">
+					<%= link_to "Descarga", root_path %>
+				</li>
+				<li class="margen_botones ">
+					<%= link_to "Registrarse", root_path %>
+				</li>
+				<li class="margen_botones ">
+					<%= link_to "Logear", root_path %>
+				</li>
+			</url>
+		</nav>	
+	</header>
+	<%= yield %>
+</body>
+</html>

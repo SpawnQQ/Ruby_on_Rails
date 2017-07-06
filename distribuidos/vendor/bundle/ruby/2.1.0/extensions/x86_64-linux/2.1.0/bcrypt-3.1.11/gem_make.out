@@ -1,0 +1,20 @@
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/bcrypt-3.1.11/ext/mri
+/usr/bin/ruby2.1 -r ./siteconf20170706-25685-1os1vdw.rb extconf.rb
+creating Makefile
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR="
+compiling wrapper.c
+compiling crypt.c
+compiling crypt_gensalt.c
+compiling crypt_blowfish.c
+compiling bcrypt_ext.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/bcrypt-3.1.11/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170706-25685-17vfcsv
+installing default bcrypt_ext libraries

@@ -1,0 +1,94 @@
+html,body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.be-blue{
+	background-color: rgb(110,106,105);
+}
+#logo{
+	font-size: 1.6em;
+}
+a:link{
+	text-decoration: none;
+}
+a,a:visited{
+	color: inherit;
+}
+.no-margin{
+	margin: 0px;
+}
+.white{
+	color: white;
+}
+.large-padding{
+	padding: 4px 10px;
+}
+.no-list{
+	list-style:none;
+}
+
+.field{
+	margin-top:0em;
+}
+
+.margen_botones{
+	margin-left: 0%;
+}
+
+.form-control{
+	border: none;
+	width: 100%;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+
+.boton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.nav li a {
+	color: #ffffff;
+   	background-color: #6E6A69;
+   	text-decoration: none;
+   	padding: 10px 15px;
+   	display: block;
+}
+
+.nav li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.nav > li {
+	float: left;
+}
+
+.nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul {
+	display: block;
+}
+
+.nav li ul li {
+	position: relative;
+}
+
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}

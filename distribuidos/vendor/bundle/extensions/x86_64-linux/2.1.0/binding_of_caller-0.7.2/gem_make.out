@@ -1,0 +1,16 @@
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/usr/bin/ruby2.1 -r ./siteconf20170705-27917-7q5jgf.rb extconf.rb
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target 'clean'.  Alto.
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

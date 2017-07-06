@@ -1,0 +1,16 @@
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/bin/ruby2.1 -r ./siteconf20170705-8945-1fzvqff.rb extconf.rb
+creating Makefile
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/ruby/2.1.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20170705-8945-1m4hsyc
+installing default debug_inspector libraries

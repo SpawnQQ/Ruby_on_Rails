@@ -1,0 +1,20 @@
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+/usr/bin/ruby2.1 -r ./siteconf20170705-27917-1hiyin9.rb extconf.rb
+creating Makefile
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/dahaka/Ruby_on_Rails/distribuidos/vendor/bundle/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20170705-27917-m6bosf/byebug
+installing default byebug libraries
