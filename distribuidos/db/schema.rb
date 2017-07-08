@@ -11,10 +11,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170706085909) do
+ActiveRecord::Schema.define(version: 20170707202856) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "enfrentamientos", force: :cascade do |t|
+    t.string   "nombre_rival"
+    t.time     "duracion_partida"
+    t.integer  "numero_jugadas"
+    t.string   "resultado"
+    t.date     "fecha"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.integer  "user_id"
+  end
+
+  add_index "enfrentamientos", ["user_id"], name: "index_enfrentamientos_on_user_id", using: :btree
+
+  create_table "estadisticas", force: :cascade do |t|
+    t.integer  "clasificacion", default: 0
+    t.integer  "victorias",     default: 0
+    t.integer  "derrotas",      default: 0
+    t.integer  "empates",       default: 0
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
+    t.integer  "user_id"
+  end
+
+  add_index "estadisticas", ["user_id"], name: "index_estadisticas_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "",           null: false
@@ -31,9 +56,12 @@ ActiveRecord::Schema.define(version: 20170706085909) do
     t.datetime "updated_at",                                    null: false
     t.string   "role",                   default: "seller"
     t.string   "estado",                 default: "disponible"
+    t.string   "user_name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "enfrentamientos", "users"
+  add_foreign_key "estadisticas", "users"
 end

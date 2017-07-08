@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre_rival: MyString
+  duracion_partida: 2017-07-07 16:01:33
+  numero_jugadas: 1
+  resultado: MyString
+  fecha: 2017-07-07
+
+two:
+  nombre_rival: MyString
+  duracion_partida: 2017-07-07 16:01:33
+  numero_jugadas: 1
+  resultado: MyString
+  fecha: 2017-07-07

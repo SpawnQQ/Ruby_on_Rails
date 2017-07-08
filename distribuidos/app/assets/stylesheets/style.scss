@@ -16,12 +16,12 @@ a,a:visited{
 }
 .no-margin{
 	margin: 0px;
-}
+}	
 .white{
 	color: white;
 }
 .large-padding{
-	padding: 4px 10px;
+	padding: 4px 15px;
 }
 .no-list{
 	list-style:none;
@@ -38,7 +38,7 @@ a,a:visited{
 .form-control{
 	border: none;
 	width: 100%;
-	padding: 10px 0px;
+	padding: 15px 0px;
 	font-size: 1.2em;
 }
 
@@ -61,7 +61,7 @@ ul, ol {
 	color: #ffffff;
    	background-color: #6E6A69;
    	text-decoration: none;
-   	padding: 10px 15px;
+   	padding: 15px 15px;
    	display: block;
 }
 
@@ -91,4 +91,8 @@ ul, ol {
 .nav li ul li ul {
 	right: -140px;
 	top: 0px;
+}
+
+.img {
+  margin-right: 0em;
 }

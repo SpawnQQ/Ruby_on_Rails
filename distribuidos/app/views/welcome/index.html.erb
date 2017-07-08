@@ -1,2 +1,6 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+<% if user_signed_in? %>
+<h2>Bienvenido <%=current_user.user_name%></h2>
+<p>Perfil <p>Nombre de usuario: <%=current_user.user_name%> </p> <p>Correo electronico: <%=current_user.email%></p> <p>Permisos: <%=current_user.role%></p> <p>Estado: <%=current_user.estado%></p></p>
+<% else%>
+<p>Bienvendo, registrate y descarga el juego, se parte de esta comunidad</p>
+<%end%>
