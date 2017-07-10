@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'descargas/index'
+
   devise_for :users, controllers: { registrations: "users/registrations" }
 
   get 'welcome/index'

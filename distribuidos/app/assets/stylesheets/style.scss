@@ -97,7 +97,22 @@ ul, ol {
   margin-right: 0em;
 }
 
-#footer1 {
-    padding: 2em 0;
-    background: #ffffff repeat-x;
+
+.footer-probando {
+    position: relative;
+    /* Altura total del footer en px con valor negativo */
+    margin-top: 200px;
+    /* Altura del footer en px. Se han restado los 5px del margen
+    superior mas los 5px del margen inferior
+    */
+    height: 40px;
+    padding:60px 0px;
+    clear: both;
+    background: #000000;
+    text-align: center;
+    color: #fff;
+}
+
+.contp{
+    height: 400px;
 }

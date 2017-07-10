@@ -21,7 +21,7 @@
 						<%= link_to "Perfil", root_path %>
 					</li>
 					<li class="margen_botones ">
-						<%= link_to "Descargas", root_path %>
+						<%= link_to "Descargas", descargas_index_path %>
 					</li>
 					<li class="margen_botones ">
 					<%= link_to "Cerrar sesión", destroy_user_session_path, :method => :delete%>
@@ -31,10 +31,10 @@
 						<%= link_to "Registrarse", new_user_registration_path %>
 					</li>
 					<li class="margen_botones ">
-						<%= link_to "Descargas", root_path %>
+						<%= link_to "Descargas", descargas_index_path %>
 					</li>
 					<li class="margen_botones ">
-						<%= link_to "Logear", new_user_session_path%>
+						<%= link_to "Iniciar Sesión", new_user_session_path%>
 					</li>
 				<%end%>
 			</url>
@@ -46,11 +46,9 @@
         	<%= value %>
     	</div>
 	<% end %>
-
 	<%= yield %>
-
-<div id="footer1">
-hola
+<div class="footer-probando">
+Probando pie de pagina
 </div>
 </body>
 </html>

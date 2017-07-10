@@ -4,9 +4,15 @@ class Users::RegistrationsController < Devise::RegistrationsController
     
     def create
       super
-      print "------ ID del ultimo usuario: ",User.last.id
+      @estadistica = Estadistica.new({
+      :user_id => User.last.id
+      });
+      if @estadistica.save()  
+      else
+        render "new";
+      end
     end  
-
+    
   # GET /resource/sign_up
 
 
