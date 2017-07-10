@@ -1,19 +1,11 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
-
-
-    def new
-      @users=User.new
-    end
     
     def create
-      @users=User.new(user_params)
+      super
+      print "------ ID del ultimo usuario: ",User.last.id
     end  
-
-    def user_params
-      params.require(:user).permit(:user_name,:email,:password)        
-    end
 
   # GET /resource/sign_up
 

@@ -1,0 +1,10 @@
+rails new nombre_proyecto				Crea un nuevo proyecto
+rails console							Permite entrar a la consola de rails
+rails routes							Las rutas del proyecto
+rake db:create:all						Crea todas las bases de datos ubicadas en config/database.yml
+rake db:migrate							Migra todas las tablas de la base de datos, en la cual se este trabajando
+rake db:rollback						Reversa de migracion
+rake g devise:install					Instala devise, si la gema ya ah sido incorporada
+bundle install							Instala las gemas agregadas en Gemfile
+bundle update							Updatea las gemas incorporadas
+rake db:reset

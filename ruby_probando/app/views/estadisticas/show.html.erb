@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Clasificacion:</strong>
+  <%= @estadistica.clasificacion %>
+</p>
+
+<p>
+  <strong>Victorias:</strong>
+  <%= @estadistica.victorias %>
+</p>
+
+<p>
+  <strong>Derrotas:</strong>
+  <%= @estadistica.derrotas %>
+</p>
+
+<p>
+  <strong>Empates:</strong>
+  <%= @estadistica.empates %>
+</p>
+
+<%= link_to 'Edit', edit_estadistica_path(@estadistica) %> |
+<%= link_to 'Back', estadisticas_path %>
