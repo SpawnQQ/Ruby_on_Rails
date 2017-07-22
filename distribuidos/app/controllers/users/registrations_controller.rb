@@ -6,11 +6,12 @@ class Users::RegistrationsController < Devise::RegistrationsController
       super
       @estadistica = Estadistica.new({
       :user_id => User.last.id
-      });
-      if @estadistica.save()  
-      else
-        render "new";
+      });  
+      if @estadistica.save()
       end
+      #else
+      #  render "/users/sign_up";
+      #end
     end  
     
   # GET /resource/sign_up

@@ -5,4 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
   has_one :estadisica
   has_many :enfrentamiento
+
+  validates :user_name, uniqueness: {case_sensitive: false,message: " El nombre de usuario ya esta registrado"}
 end
