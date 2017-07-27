@@ -1,18 +1,32 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
-    
+
+    #def new
+    #  @user=User.new();
+    #end
+
     def create
+    #  @nombre_usuario=params[:user][:user_name];
+     # @email=params[:user][:email];
+     # @password=params[:user][:password];
+
+     # @user=User.new({
+     # :user_name => @nombre_usuario,
+     # :email => @email,
+     # :password => @password
+     # });
+
       super
       @estadistica = Estadistica.new({
       :user_id => User.last.id
       });  
       if @estadistica.save()
-      end
+      end 
       #else
       #  render "/users/sign_up";
       #end
-    end  
+    end
     
   # GET /resource/sign_up
 
